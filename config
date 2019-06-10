@@ -1,0 +1,11 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = git@github.com:afzal228/jbpmGit.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
